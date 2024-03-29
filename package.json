@@ -32,9 +32,9 @@
   },
   "dependencies": {
     "abstract-object": "^3.0.0-alpha.4",
-    "events-ex": "^2.0.0-alpha.13",
+    "events-ex": "^2.0.0-alpha.14",
     "inherits-ex": "^2.1.0-alpha.12",
-    "util-ex": "^2.0.0-alpha.10"
+    "util-ex": "^2.0.0-alpha.11"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.4",

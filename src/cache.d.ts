@@ -40,7 +40,7 @@ export class Cache extends LRUCache {
    * @param {number} [options.cleanInterval=0] - The interval time for automatically cleaning up expired items from the cache, in seconds. A value of 0 means no automatic cleaning.
    * @param {number} [options.fixedCapacity] - The maximum number of items to store in the fixed capacity cache.
    * @example
-   * const cache = new Cache({ max: 100, expires: 60000, fixedCapacity: 50 });
+   * const cache = new Cache({ capacity: 100, expires: 60000, fixedCapacity: 50 });
    */
   constructor(options?: ICacheOptions|number);
 
